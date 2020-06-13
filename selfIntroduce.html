@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Self Introduce</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            font-family: "Microsoft YaHei", "Arial Narrow", sans-serif;
+        }
+        .container{
+            margin: 10px 40px;
+            background: url("./img/backg.jpg") no-repeat 0 0;
+            background-size: cover;
+            z-index: -1;
+            height: 600px;
+        }
+        .subcontainer{
+            z-index: 1;
+        }
+        .navbar{
+            padding: 25px 80px;
+        }
+        .navbar a{
+            font-size: 18px;
+            text-decoration: none;
+            font-family: "Apple Color Emoji";
+            color: #d3d9df;
+            padding: 0 10px;
+        }
+        .navbar a:hover{
+            color: #aaa;
+        }
+        .fright{
+            float: right;
+        }
+        .info{
+            text-align: center;
+            color: white;
+        }
+        .info>img{
+            display: inline-block;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin: 30px 0;
+        }
+        .info>button{
+            padding: 14px 45px;
+            margin: 5px 8px;
+            background: #b78dff;
+            color: white;
+            font-size: 15px;
+            border: 0;
+            border-radius: 4px;
+        }
+        .info>button:hover{
+            background: #c2adff;
+            cursor: pointer;
+        }
+        .icons{
+            margin-top: 50px;
+        }
+        .icons>span{
+            line-height: 55px;
+            font-size: 25px;
+            display: inline-block;
+            margin: 0 4px;
+            border-radius: 50%;
+            width: 55px;
+            height: 55px;
+            background: #aaaaaa;
+            cursor: pointer;
+        }
+        .items{
+            display: flex;
+            border:0;
+            border-radius: 4px;
+            width: 80%;
+            margin: 30px auto;
+            box-shadow: 0 0 20px #ccc;
+        }
+        .items>div{
+            flex: 1;
+            padding: 15px;
+        }
+        .items p{
+            line-height: 22px;
+        }
+        .information p{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="subcontainer">
+    <div class="navbar">
+        <a href="#">Introduce</a>
+        <span class="fright">
+            <a href="#">About</a>
+            <a href="#">Information</a>
+            <a href="#">Skills</a>
+            <a href="#">Hobbies</a>
+        </span>
+    </div>
+    <div class="info">
+        <img src="img/keanu.jpg">
+        <h1>Keanu Wong</h1>
+        <h4>Web Developer , Football fans , Music enthusiast</h4>
+        <button>Hire Me</button>
+        <button>Contact Me</button>
+        <div class="icons">
+            <span class="iconfont icon-bangzhu" title="Questions?"></span>
+            <span class="iconfont icon-dianzan" title="Give Me Five!"></span>
+            <span class="iconfont icon-pinglun" title="Advices?"></span>
+            <span class="iconfont icon-dianhua" title="Call Me"></span>
+        </div>
+    </div>
+    <div class="content">
+        <div class="items">
+            <div>
+                <h2>About</h2>
+                <p>
+                    Hello! I'm Keanu Wong, a web developer, football fans and music enthusiast.<br><br>
+                    I have taught myself HTML, CSS, JavaScript at school. Now is the first year to come out to work,
+                    because I lack work experience, I hope everyone can take care of me, I believe we can become friends soon
+                </p>
+            </div>
+            <div class="information">
+                <h2>Information</h2>
+                <p><strong>Age:</strong><span>21</span></p>
+                <p><strong>Email:</strong><span>295386498@qq.com</span></p>
+                <p><strong>Address:</strong><span>Zhuhai,GuangDong Province</span></p>
+                <p><strong>Sex:</strong><span>m</span></p>
+                <p><strong>University:</strong><span>Hunan University</span></p>
+            </div>
+        </div>
+        <div class="items">
+            <div>
+                <h2>Skills</h2>
+                <p>1. Master C++, JAVA, and C language<br>
+                    2. Master HTML, CSS, JAVASCRIPT, BOOTSTRAP, currently learning<br>
+                    And other front-end development skills (framework)<br>
+                    3. Skilled in using OFFICE tools<br>
+                    4. CET-6, good English reading ability<br>
+                    5. Understand the use of ECLIPSE, DEV C++ and other tools</p>
+            </div>
+            <div>
+                <h2>Hobbies</h2>
+                <p>I usually read professional books, study the content of professional courses seriously, and have certain learning ability;
+                    Be willing to listen to other people's opinions, good at analyzing and learning experience;
+                    Usually like sports, listening to music, reading books;
+                    Easy to get along with, a strong sense of self-motivation, and a strong sense of honor</p>
+            </div>
+        </div>
+    </div></div>
+</div>
+</body>
+</html>
